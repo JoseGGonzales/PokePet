@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Title</title>
+    <link rel="stylesheet" href="css/search.css"> 
+    <script src="js/search.js" defer></script> 
+</head>
+<body>
+    <div class = "header">
+        <div class="inner-header">
+            <div class="logo-container">
+                <img src="images/pikachu-img.png" alt="Logo" class="logo-image">
+                <h1>POKE<span>PET</span></h1>
+            </div>
+
+            <ul class="navigation">
+                <a href="#section1" class="nav-link" data-target="section1"><li>About</li></a>
+                <a href="#section2" class="nav-link" data-target="section2"><li>Developers</li></a>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="background-section">
+        <div class = "search-content">
+            <h2>Pick a Pokemon</h2>
+            <input type = "text" id ="pokemon-search" placeholder="Enter Pokemon Name" autocomplete="off">
+            <ul id="suggestions" class="dropdown"></ul>
+                <button id="search-btn">Search</button>
+        </div>
+    </div>  
+
+    <main>
+        <section id="section1" style="height: 50vh; background: linear-gradient(to bottom right, lightblue, blue); ">
+            <h1 class="section-titles">About Our Website</h1>
+            <p class="about-text">Welcome to the Poké-Pet, where "Understood the assignment" meets "main character energy"! This isn’t just a Pokédex—it’s your personal tik tok rizz party to pick a Pokémon, feed it, train it, and evolve it into an absolute slay. Forget mid; this site is "bussin’, no cap". Feeling lazy? Go full "sicko mode" with your Pokémon. Hungry Pikachu? Sheesh, toss it a Lunchly and Prime bottle. Charmander won’t listen? That's okay, he's "Built different." Here, we’re all about "vibes", leaving no crumbs, and the talk tuah podcast. Do it for the plot, We're in our "Pokémon rizzler era." Let’s get to work! </p>
+        </section>
+        <section id="section2" style="height: 100vh; background: linear-gradient(to bottom right, lightpink, rgb(188, 57, 79)); ">
+            <h1 class="section-titles">Meet the Developers of this Website</h1>
+            <div class="developer-info">
+                <img src="images/dog-hat.jpg" alt="dev photo" class="developer-photo">
+                <p class="about-text">Hi! I’m a dedicated programmer with a strong passion for technology and problem-solving. My goal is to become a software engineer, and I’m always eager to learn and improve. Outside of programming, I enjoy staying active and engaging in sports, which keep me motivated and balanced. Hard work and determination drive me in everything I do.</p>
+            </div>
+            <div class="developer-info">
+                <img src="images/dog-minecraft.jpg" alt="dev photo" class="developer-photo">
+                <p class="about-text">I'm a chill guy who loves programming, especially in Python but I will program in other languages if I need to, because I LOVE LEARNING new things. I find joy in solving problems and building things that can make a difference. My passion for coding goes beyond just writing lines of code—it's about using my skills to help others and create positive change in the future. Whether it's through developing apps, teaching others, or just exploring new tech, my ultimate goal is to make a meaningful impact while doing what I love.</p>
+            </div>
+            <div class="developer-info">
+                <img src="images/dog-glasses.jpg" alt="dev photo" class="developer-photo">
+                <p class="about-text">Hello, I am just a chill guy.</p>
+            </div>
+        </section>
+    </main>
+
+
+</body>
+</html>
