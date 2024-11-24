@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PokePet</title>
     <link rel="stylesheet" href="css/results.css"> 
     <script src="js/results.js" defer></script> 
 </head>
@@ -13,12 +13,23 @@
         <div id="pokemon-display">
             <img id="pokemon-image" src="" alt="Pokémon" />
             <div id="pokemon-stats">
-                <p id="pokemon-health">Health: 100</p>
-                <p id="pokemon-hunger">Hunger: 50</p>
+                
+                <div class="health-container">
+                    <div class="health-bar">
+                        <div id="healthFill"></div>
+                        <span id="pokemon-health">Health: 100</span>
+                    </div>
+                </div>
+
+                <div class="hunger-container">
+                    <div class="hunger-bar">
+                        <div id="hungerFill"></div>
+                        <span id="pokemon-hunger">Hunger: 50</span>
+                    </div>
+                </div>
+
             </div>
         </div>
-        <!--<div id="pokemon-info">
-        </div>  -->
         <div id="actions">
             <button id="feed-btn">Feed</button>
             <button id="train-btn">Train</button>

@@ -1,8 +1,23 @@
+body {
+    background: linear-gradient(to bottom,rgb(177, 241, 177) 70% , green 100%); /* Gradient background */
+    height: 100vh;
+    /*background-size: cover; /* Makes the image cover the entire viewport */
+    margin: 0; /* Removes any default margin */
+    padding: 0; /* Removes any default padding */
+    font-family: Arial, sans-serif; /* Optional: Sets a font for text */
+}
+
+
 #pokemon-display {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 20px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.pokemon-name{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #pokemon-image {
@@ -57,4 +72,67 @@ button:hover {
     width: 300px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.hunger-container {
+    position: relative;
+    margin: 30px auto;
+    width: 300px;
+}
+
+.hunger-bar {
+    width: 100%;
+    height: 30px;
+    background-color: #ddd;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+}
+
+#hungerFill {
+    background: linear-gradient(to right, rgb(248, 180, 54), rgb(255, 115, 0));
+    height: 100%;
+    width: 50%;
+    transition: width 0.5s ease-in-out;
+}
+
+#pokemon-hunger {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 14px;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+.health-container {
+    position: relative;
+    margin: 30px auto;
+    width: 300px;
+}
+
+.health-bar {
+    width: 100%;
+    height: 30px;
+    background-color: #ddd;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+}
+
+#healthFill {
+    background: linear-gradient(to right, lightgreen, green);
+    /*background-color: green; */
+    height: 100%;
+    width: 50%;
+    transition: width 0.5s ease-in-out;
+}
+
+#pokemon-health {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 14px;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
 }

@@ -208,7 +208,7 @@ html, body {
     text-align: center; /* Center the title */
     text-transform: uppercase; /* Make the text all uppercase */
     letter-spacing: 2px; /* Add spacing between letters */
-    margin:  0; /* Add spacing above and below */
+    margin: 0; /* Add spacing above and below */
     position: relative; /* For decorative elements */
     padding: 20px;
 
